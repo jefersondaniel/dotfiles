@@ -1,4 +1,5 @@
 [global_config]
+  title_transmit_bg_color = "#DC322F"
 [keybindings]
 [profiles]
   [[default]]
