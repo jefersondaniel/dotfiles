@@ -9,6 +9,7 @@ Plugin 'kien/ctrlp.vim'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
+Plugin 'michaeljsmith/vim-indent-object'
 call vundle#end()
 
 " Appearance
@@ -56,4 +57,13 @@ let g:ctrlp_custom_ignore = {
 " vim markdown
 
 let g:vim_markdown_folding_disabled = 1
+
+" Specic Syntax
+
+autocmd Filetype javascript setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype html setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype json setlocal expandtab tabstop=2 shiftwidth=2 softtabstop=2
+autocmd Filetype php setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
+autocmd Filetype python setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
+autocmd Filetype c setlocal expandtab tabstop=4 shiftwidth=4 softtabstop=4
 
