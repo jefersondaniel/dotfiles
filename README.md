@@ -1,4 +1,10 @@
-# Dotfiles
+# My personal dotfiles
 
-A set of configuration files managed with GNU Stow
+## How to use
+
+Use the stow program to create the symbolic links, like this:
+
+```bash
+$ stow -t $HOME vim
+```
 

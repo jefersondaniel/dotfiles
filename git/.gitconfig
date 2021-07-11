@@ -1,0 +1,10 @@
+[user]
+	email = jeferson.daniel412@gmail.com
+	name = Jeferson Daniel
+	signingkey = 79ED5D3C654AD056313A524290A6830794133E99
+[core]
+	editor = vim
+[alias]
+	changelog = log --pretty=format:\"- %s (%h) (%aE) - %as\"
+[commit]
+	gpgsign = true
